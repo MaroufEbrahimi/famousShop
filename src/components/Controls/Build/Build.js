@@ -2,10 +2,14 @@ import React from "react";
 
 import "./Build.css";
 
-const Build = () => {
+const Build = ({ img, price, add }) => {
   return (
     <div className="builder">
-      <h1>Builder components</h1>
+      <img src={img} />
+      <div className="builder_content">
+        <p>{price}</p>
+        <button onClick={add}>Add</button>
+      </div>
     </div>
   );
 };
