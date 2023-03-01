@@ -7,6 +7,10 @@
   border-radius: 10px;
 }
 
+.builder:hover {
+  border-color: #fff;
+}
+
 .builder img {
   border-radius: 10px;
   width: 100%;
@@ -15,5 +19,42 @@
 }
 
 .builder:hover img {
-   filter: brightness(70%);
+  filter: brightness(70%);
+}
+
+.builder_content {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.builder_content p {
+  color: #333;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.builder:hover p {
+  color: #ee82ee;
+}
+
+.builder_content button {
+  position: relative;
+  color: #fff;
+  background: #ee82ee;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 3px;
+  transition: 0.2s ease;
+  margin: 0 10px 10px 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.builder_content button:hover {
+  border: 2px solid #ee82ee;
+  background-color: transparent;
 }
