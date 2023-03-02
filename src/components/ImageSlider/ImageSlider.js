@@ -14,6 +14,7 @@ const Indicator = ({ currenSlide, amountSlides, nextSlide }) => {
             style={{
               background: currenSlide === i ? `#ee82ee` : `transparent`,
             }}
+            onClick={() => nextSlide(i)}
           ></div>
         ))}
     </div>
