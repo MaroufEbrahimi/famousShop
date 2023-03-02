@@ -2,6 +2,24 @@ import React, { useState, useEffect } from "react";
 
 import "./ImageSlider.css";
 
+const Indicator = ({ currenSlide, amountSlides, nextSlide }) => {
+  return (
+    <div className="indicatorWrapper">
+      {Array(amountSlides)
+        .fill(1)
+        .map((_, i) => (
+          <div
+            className="dot"
+            key={i}
+            style={{
+              background: currenSlide === i ? `#ee82ee` : `transparent`,
+            }}
+          ></div>
+        ))}
+    </div>
+  );
+};
+
 const ImageSlider = ({ images = [], autoPlayTime = 3000, ...props }) => {
   const [currenSlide, setCurrentSlide] = useState(0);
 
@@ -30,6 +48,11 @@ const ImageSlider = ({ images = [], autoPlayTime = 3000, ...props }) => {
           }}
         ></div>
       ))}
+      <Indicator
+        currenSlide={currenSlide}
+        amountSlides={images.length}
+        nextSlide={nextSlide}
+      />
     </div>
   );
 };
