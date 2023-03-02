@@ -1,0 +1,15 @@
+.image_slider {
+  height: 100vh;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+
+.slide {
+  height: 100%;
+  width: 100vw;
+  flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+  transition: all 1s ease-in-out;
+}
