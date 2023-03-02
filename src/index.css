@@ -1,3 +1,33 @@
 body {
   margin: 0 auto;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e6d2e6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ee82ee;
+  border-radius: 5px;
+}
+
+::selection {
+  background: #ee82ee;
+  color: #fff;
+}
+
+button {
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  --user-drag: none;
+}
