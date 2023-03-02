@@ -13,3 +13,23 @@
   background-size: cover;
   transition: all 1s ease-in-out;
 }
+
+.indicatorWrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  background: transparent;
+  border: 0.15rem solid #ee82ee;
+  margin: 2px;
+  border-radius: 10px;
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+}
