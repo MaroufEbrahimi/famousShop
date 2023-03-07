@@ -39,11 +39,18 @@ const products = [
   { price: "$ 10060", img: img16, type: "product16" },
 ];
 
-const Controls = () => {
+const Controls = (props) => {
   return (
     <div className="controls">
       {products.map((item) => {
-        return <Build key={item.type} price={item.price} img={item.img} />;
+        return (
+          <Build
+            key={item.type}
+            price={item.price}
+            img={item.img}
+            add={() => props.productAdd(item.type)}
+          />
+        );
       })}
     </div>
   );
