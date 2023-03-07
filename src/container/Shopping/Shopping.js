@@ -42,6 +42,7 @@ class Shopping extends Component {
       product16: 0,
     },
     totalPrice: 0,
+    showModal: false,
   };
 
   addProductHandler = (type) => {
@@ -59,10 +60,17 @@ class Shopping extends Component {
     this.setState({ totalPrice: newPrice, products: updatedProducts });
   };
 
+  showModalHandler = () => {
+    this.setState({showModal: true})
+  };
+
   render() {
     return (
       <div>
-        <Controls productAdd={this.addProductHandler} />
+        <Controls
+          productAdd={this.addProductHandler}
+          checkout={this.showModalHandler}
+        />
       </div>
     );
   }
