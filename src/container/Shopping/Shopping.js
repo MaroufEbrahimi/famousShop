@@ -65,10 +65,17 @@ class Shopping extends Component {
     this.setState({ showModal: true });
   };
 
+  modalCloseHandler = () => {
+    this.setState({ showModal: false });
+  };
+
   render() {
     return (
       <div>
-        <Modal />
+        <Modal
+          show={this.state.showModal}
+          closeModal={this.modalCloseHandler}
+        />
 
         <Controls
           productAdd={this.addProductHandler}
