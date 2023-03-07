@@ -52,6 +52,10 @@ const Controls = (props) => {
           />
         );
       })}
+
+      <div className="checkout">
+        <button onClick={props.checkout}></button>
+      </div>
     </div>
   );
 };
