@@ -8,7 +8,16 @@ const Modal = (props) => {
   return (
     <Wrapper>
       <Backdrop show={props.show} removeModal={props.closeModal} />
-      <div className="modal">{props.children}</div>
+
+      <div
+        className="modal"
+        style={{
+          transform: props.show ? "translateX(0)" : "translateX(200vh)",
+          opacity: props.show ? "1" : "0",
+        }}
+      >
+        {props.children}
+      </div>
     </Wrapper>
   );
 };
