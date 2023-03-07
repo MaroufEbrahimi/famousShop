@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import Controls from "../../components/Controls/Controls";
 import Modal from "../../components/UI/Modal/Modal";
+import Order from "../../components/Order/Order";
 
 const prices = {
   product1: 12.5,
@@ -72,10 +73,12 @@ class Shopping extends Component {
   render() {
     return (
       <div>
-        <Modal
-          show={this.state.showModal}
-          closeModal={this.modalCloseHandler}
-        />
+        <Modal show={this.state.showModal} closeModal={this.modalCloseHandler}>
+          <Order
+            products={this.state.products}
+            totalPrice={this.state.totalPrice}
+          />
+        </Modal>
 
         <Controls
           productAdd={this.addProductHandler}
