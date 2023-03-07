@@ -9,3 +9,11 @@
   margin: 10px;
   cursor: pointer;
 }
+
+.success {
+  background: #388e3c;
+}
+
+.danger {
+  background: #de2f2f;
+}
