@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../UI/Button/Button";
 
 const Order = (props) => {
   const summery = Object.keys(props.products).map((item) => {
@@ -15,6 +16,9 @@ const Order = (props) => {
       <ul>{summery}</ul>
       <p>Total Price: {props.totalPrice}</p>
       <p>Continue?</p>
+
+      <Button>Yes</Button>
+      <Button>NO</Button>
     </div>
   );
 };
