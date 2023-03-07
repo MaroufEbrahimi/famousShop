@@ -13,3 +13,27 @@
   transition: all 0.3s ease-out;
   box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.24);
 }
+
+.modal h3 {
+  color: #000;
+  font-weight: bold;
+  font-size: 1.3rem;
+  letter-spacing: 0.06em;
+  user-select: none;
+}
+
+.modal ul {
+  list-style: none;
+}
+
+.modal ul li {
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 60rem) {
+  .modal {
+    width: 30%;
+    left: 30%;
+  }
+}
