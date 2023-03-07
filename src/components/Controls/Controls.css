@@ -31,3 +31,37 @@
 .checkout button:hover {
   box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.24);
 }
+
+@media (max-width: 1115px) {
+  .controls {
+    max-width: 1000px;
+  }
+}
+@media (max-width: 1017px) {
+  .controls {
+    max-width: 900px;
+  }
+}
+@media (max-width: 900px) {
+  .controls {
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 715px) {
+  .controls {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  .controls {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 415px) {
+  .controls {
+    max-width: 250px;
+  }
+}
