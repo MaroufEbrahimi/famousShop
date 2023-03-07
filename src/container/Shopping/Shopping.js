@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import Controls from "../../components/Controls/Controls";
+import Modal from "../../components/UI/Modal/Modal";
 
 const prices = {
   product1: 12.5,
@@ -61,12 +62,14 @@ class Shopping extends Component {
   };
 
   showModalHandler = () => {
-    this.setState({showModal: true})
+    this.setState({ showModal: true });
   };
 
   render() {
     return (
       <div>
+        <Modal />
+
         <Controls
           productAdd={this.addProductHandler}
           checkout={this.showModalHandler}
