@@ -1,7 +1,14 @@
 import React from "react";
 
-const Modal = () => {
-  return <div>Modal</div>;
+import "./Modal.css";
+import Wrapper from "../../../HOC/Wrapper";
+
+const Modal = (props) => {
+  return (
+    <Wrapper>
+      <div className="modal">{props.children}</div>
+    </Wrapper>
+  );
 };
 
 export default Modal;
