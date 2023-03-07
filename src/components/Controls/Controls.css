@@ -5,3 +5,29 @@
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   grid-gap: 1rem;
 }
+
+/* check list button */
+.checkout {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+}
+
+.checkout button {
+  padding: 8px 10px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background: #ee82ee;
+  color: #fff;
+  font-size: 17px;
+  box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all ease-in-out 0.3s;
+  letter-spacing: 0.03em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.checkout button:hover {
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.24);
+}
