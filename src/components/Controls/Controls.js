@@ -54,7 +54,7 @@ const Controls = (props) => {
       })}
 
       <div className="checkout">
-        <button onClick={props.checkout}></button>
+        <button onClick={props.checkout}>Check List</button>
       </div>
     </div>
   );
