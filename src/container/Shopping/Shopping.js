@@ -70,6 +70,14 @@ class Shopping extends Component {
     this.setState({ showModal: false });
   };
 
+  modalContinueHandler = () => {
+    console.log("continue!");
+  };
+
+  modalCloseHandler = () => {
+    this.setState({ showModal: false });
+  };
+
   render() {
     return (
       <div>
@@ -77,6 +85,8 @@ class Shopping extends Component {
           <Order
             products={this.state.products}
             totalPrice={this.state.totalPrice}
+            continue={this.modalContinueHandler}
+            cancel={this.modalCloseHandler}
           />
         </Modal>
 
