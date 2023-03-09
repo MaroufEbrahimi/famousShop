@@ -5,7 +5,7 @@ import NavItems from "../NavItems/NavItems";
 
 const NavBar = () => {
   return (
-    <header>
+    <header className="navBar">
       <nav>
         <NavItems />
       </nav>
