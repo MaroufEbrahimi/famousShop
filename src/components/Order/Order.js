@@ -17,8 +17,8 @@ const Order = (props) => {
       <p>Total Price: {props.totalPrice}</p>
       <p>Continue?</p>
 
-      <Button type="success">Yes</Button>
-      <Button type="danger">NO</Button>
+      <Button type="success" click={props.continue}>Yes</Button>
+      <Button type="danger" click={props.cancel}>NO</Button>
     </div>
   );
 };
