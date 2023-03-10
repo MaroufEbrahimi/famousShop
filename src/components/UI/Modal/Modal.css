@@ -2,7 +2,6 @@
   position: fixed;
   z-index: 300;
   background-color: #f8cbf8;
-  border: 1px solid #e0e0e0;
   border-radius: 5px;
   width: 40%;
   top: 4%;
@@ -23,12 +22,34 @@
 }
 
 .modal ul {
+  margin: 20px;
+  padding: 0;
+  position: relative;
   list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, auto));
+  grid-gap: 10px;
 }
 
 .modal ul li {
-  font-size: 18px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 10px 0;
+  background-image: linear-gradient(
+    rgb(241, 122, 241),
+    rgb(233, 92, 233),
+    rgb(225, 152, 225)
+  );
+  border-radius: 6px;
+  border: none;
+  box-shadow: 1px 1px 5px 0px rgba(241, 122, 241, 0.3);
+}
+
+.modal p {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
 }
 
 @media (max-width: 60rem) {
