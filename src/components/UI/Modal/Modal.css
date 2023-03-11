@@ -5,7 +5,7 @@
   border-radius: 5px;
   width: 45%;
   top: 4%;
-  left: 26%;
+  left: 24%;
   padding: 16px;
   box-sizing: border-box;
   text-align: center;
@@ -54,7 +54,26 @@
 
 @media (max-width: 60rem) {
   .modal {
-    width: 75%;
+    width: 38%;
+    left: 27%;
+  }
+}
+
+@media (max-width: 860px) {
+  .modal {
+    width: auto;
+    left: 33%;
+  }
+}
+
+@media (max-width: 660px) {
+  .modal {
+    left: 20%;
+  }
+}
+
+@media (max-width: 415px) {
+  .modal {
     left: 10%;
   }
 }
