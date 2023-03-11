@@ -45,6 +45,7 @@ class Shopping extends Component {
     },
     totalPrice: 0,
     showModal: false,
+    changeListBG: false,
   };
 
   addProductHandler = (type) => {
@@ -60,6 +61,7 @@ class Shopping extends Component {
     const newPrice = previousPrice + priceAdded;
 
     this.setState({ totalPrice: newPrice, products: updatedProducts });
+    this.setState({ changeListBG: true });
   };
 
   showModalHandler = () => {
@@ -87,6 +89,7 @@ class Shopping extends Component {
             totalPrice={this.state.totalPrice}
             continue={this.modalContinueHandler}
             cancel={this.modalCloseHandler}
+            changeListBG={this.state.changeListBG}
           />
         </Modal>
 
