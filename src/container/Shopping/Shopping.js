@@ -1,8 +1,15 @@
 import React, { Component } from "react";
 
 import Controls from "../../components/Controls/Controls";
+import NavBar from "../../components/Navigation/NavBar/NavBar";
+import ImageSlider from "../../components/ImageSlider/ImageSlider";
 import Modal from "../../components/UI/Modal/Modal";
 import Order from "../../components/Order/Order";
+
+import image1 from "../../assets/slideShow_img/slideshow1.jpg";
+import image2 from "../../assets/slideShow_img/slideshow2.jpg";
+import image3 from "../../assets/slideShow_img/slideshow3.jpg";
+import image4 from "../../assets/slideShow_img/slideshow4.jpg";
 
 const prices = {
   product1: 12.5,
@@ -93,6 +100,8 @@ class Shopping extends Component {
           />
         </Modal>
 
+        <NavBar />
+        <ImageSlider images={[image1, image2, image3, image4]} />
         <Controls
           productAdd={this.addProductHandler}
           checkout={this.showModalHandler}
