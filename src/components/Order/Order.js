@@ -1,11 +1,15 @@
 import React from "react";
+
 import Button from "../UI/Button/Button";
 
 const Order = (props) => {
   const summery = Object.keys(props.products).map((item) => {
     return (
       <li key={item}>
-        {item} : {props.products[item]}
+        {item}:{" "}
+        <span style={{ color: props.changeListBG ? "green" : "white" }}>
+          {props.products[item]}
+        </span>
       </li>
     );
   });
@@ -17,8 +21,12 @@ const Order = (props) => {
       <p>Total Price: {props.totalPrice}</p>
       <p>Continue?</p>
 
-      <Button type="success" click={props.continue}>Yes</Button>
-      <Button type="danger" click={props.cancel}>NO</Button>
+      <Button type="success" click={props.continue}>
+        Yes
+      </Button>
+      <Button type="danger" click={props.cancel}>
+        NO
+      </Button>
     </div>
   );
 };
