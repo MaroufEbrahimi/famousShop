@@ -3,22 +3,22 @@ import React from "react";
 import "./Controls.css";
 import Build from "./Build/Build";
 
-import img1 from "../../assets/product_img/product1.jpg";
-import img2 from "../../assets/product_img/product2.jpg";
-import img3 from "../../assets/product_img/product3.jpg";
-import img4 from "../../assets/product_img/product4.jpg";
-import img5 from "../../assets/product_img/product5.jpg";
-import img6 from "../../assets/product_img/product6.jpg";
-import img7 from "../../assets/product_img/product7.jpg";
-import img8 from "../../assets/product_img/product8.jpg";
-import img9 from "../../assets/product_img/product9.jpg";
-import img10 from "../../assets/product_img/product10.jpg";
-import img11 from "../../assets/product_img/product11.jpg";
-import img12 from "../../assets/product_img/product12.jpg";
-import img13 from "../../assets/product_img/product13.jpg";
-import img14 from "../../assets/product_img/product14.jpg";
-import img15 from "../../assets/product_img/product15.jpg";
-import img16 from "../../assets/product_img/product16.jpg";
+import img1 from "../../assets/product_img/product1.jpeg";
+import img2 from "../../assets/product_img/product2.jpeg";
+import img3 from "../../assets/product_img/product3.jpeg";
+import img4 from "../../assets/product_img/product4.jpeg";
+import img5 from "../../assets/product_img/product5.jpeg";
+import img6 from "../../assets/product_img/product6.jpeg";
+import img7 from "../../assets/product_img/product7.jpeg";
+import img8 from "../../assets/product_img/product8.jpeg";
+import img9 from "../../assets/product_img/product9.jpeg";
+import img10 from "../../assets/product_img/product10.jpeg";
+import img11 from "../../assets/product_img/product11.jpeg";
+import img12 from "../../assets/product_img/product12.jpeg";
+import img13 from "../../assets/product_img/product13.jpeg";
+import img14 from "../../assets/product_img/product14.jpeg";
+import img15 from "../../assets/product_img/product15.jpeg";
+import img16 from "../../assets/product_img/product16.jpeg";
 
 const products = [
   { price: "$ 12.5", img: img1, type: "product1" },
