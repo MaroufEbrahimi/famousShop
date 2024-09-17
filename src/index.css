@@ -31,3 +31,62 @@ img {
   -o-user-drag: none;
   --user-drag: none;
 }
+
+/* ###_____ General Styles _____### */
+.border_radius_10 {
+  border-radius: 10px;
+}
+
+.position_relative {
+  position: relative;
+}
+
+.position_absolute {
+  position: absolute;
+}
+
+.display_flex {
+  display: flex;
+}
+
+.flex_direction_column {
+  flex-direction: column;
+}
+
+.align_items_center {
+  align-items: center;
+}
+
+.justify_content_center {
+  justify-content: center;
+}
+
+.gap_5 {
+  gap: 5px;
+}
+.gap_10 {
+  gap: 10px;
+}
+.gap_15 {
+  gap: 15px;
+}
+.gap_20 {
+  gap: 20px;
+}
+.gap_25 {
+  gap: 25px;
+}
+.gap_30 {
+  gap: 30px;
+}
+
+.cursor_pointer {
+  cursor: pointer;
+}
+
+.text_align_center {
+  text-align: center;
+}
+.text_align_justify {
+  text-align: justify;
+}
