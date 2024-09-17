@@ -2,8 +2,8 @@
   max-width: 1200px;
   margin: 3rem auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  grid-gap: 1.5rem;
 }
 
 /* check list button */
