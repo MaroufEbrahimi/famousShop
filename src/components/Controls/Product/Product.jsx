@@ -10,7 +10,7 @@ import ProductRate from "../../UI/Rating/ProductRate/ProductRate";
 
 const Product = ({ img, price, rate, text }) => {
   return (
-    <div className="products border_radius_10">
+    <div className="products border_radius_10 position_relative">
       <div className="product_img_content position_relative">
         <img src={img} />
         <div className="product_img_content_side position_absolute display_flex flex_direction_column gap_15">
@@ -22,8 +22,11 @@ const Product = ({ img, price, rate, text }) => {
       <div className="product_content">
         <div className="product_rating"></div>
         <ProductRate rate={rate} />
-        <p className="text_align_center">{text}</p>
-        <p>{price}</p>
+        <p className="product_txt text_align_center">{text}</p>
+        <p className="product_price bold">
+          <sup>$ </sup>
+          {price}
+        </p>
       </div>
     </div>
   );

@@ -34,3 +34,15 @@
 .product_content {
   padding: 0px 10px;
 }
+.product_content .product_txt {
+  font-size: 15px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.product_content .product_price {
+  font-size: 15px;
+  line-height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}

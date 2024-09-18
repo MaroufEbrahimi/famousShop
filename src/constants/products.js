@@ -17,7 +17,7 @@ import img16 from "../assets/product_img/product16.jpeg";
 
 const products = [
   {
-    price: "$12.5",
+    price: "12.5",
     img: img1,
     rating: 5,
     productTxt:
@@ -25,7 +25,7 @@ const products = [
     type: "product1",
   },
   {
-    price: "$10",
+    price: "10",
     img: img2,
     rating: 4,
     productTxt:
@@ -33,7 +33,7 @@ const products = [
     type: "product2",
   },
   {
-    price: "$22.5",
+    price: "22.5",
     img: img3,
     rating: 3,
     productTxt:
@@ -41,7 +41,7 @@ const products = [
     type: "product3",
   },
   {
-    price: "$8",
+    price: "8",
     img: img4,
     rating: 4,
     productTxt:
@@ -49,7 +49,7 @@ const products = [
     type: "product4",
   },
   {
-    price: "$85",
+    price: "85",
     img: img5,
     rating: 5,
     productTxt:
@@ -57,7 +57,7 @@ const products = [
     type: "product5",
   },
   {
-    price: "$102",
+    price: "102",
     img: img6,
     rating: 4,
     productTxt:
@@ -65,7 +65,7 @@ const products = [
     type: "product6",
   },
   {
-    price: "$71",
+    price: "71",
     img: img7,
     rating: 5,
     productTxt:
@@ -73,7 +73,7 @@ const products = [
     type: "product7",
   },
   {
-    price: "$108",
+    price: "108",
     img: img8,
     rating: 3,
     productTxt:
@@ -81,7 +81,7 @@ const products = [
     type: "product8",
   },
   {
-    price: "$20",
+    price: "20",
     img: img9,
     rating: 4,
     productTxt:
@@ -89,7 +89,7 @@ const products = [
     type: "product9",
   },
   {
-    price: "$307",
+    price: "307",
     img: img10,
     rating: 5,
     productTxt:
@@ -97,7 +97,7 @@ const products = [
     type: "product10",
   },
   {
-    price: "$11",
+    price: "11",
     img: img11,
     rating: 4,
     productTxt:
@@ -105,7 +105,7 @@ const products = [
     type: "product11",
   },
   {
-    price: "$18",
+    price: "18",
     img: img12,
     rating: 3,
     productTxt:
@@ -113,7 +113,7 @@ const products = [
     type: "product12",
   },
   {
-    price: "$8",
+    price: "8",
     img: img13,
     rating: 3,
     productTxt:
@@ -121,7 +121,7 @@ const products = [
     type: "product13",
   },
   {
-    price: "$140",
+    price: "140",
     img: img14,
     rating: 5,
     productTxt:
@@ -129,7 +129,7 @@ const products = [
     type: "product14",
   },
   {
-    price: "$15000",
+    price: "15000",
     img: img15,
     rating: 5,
     productTxt:
@@ -137,7 +137,7 @@ const products = [
     type: "product15",
   },
   {
-    price: "$10060",
+    price: "10060",
     img: img16,
     rating: 5,
     productTxt:

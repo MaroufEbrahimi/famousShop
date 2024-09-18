@@ -1,6 +1,9 @@
 .controls {
   max-width: 1200px;
   margin: 3rem auto;
+}
+
+.controls .controls_content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, auto));
   grid-gap: 1.5rem;
