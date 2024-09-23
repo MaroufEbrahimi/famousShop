@@ -101,7 +101,7 @@ class Shopping extends Component {
         </Modal>
 
         <NavBar />
-        <ImageSlider images={[image1, image2, image3, image4]} />
+        {/* <ImageSlider images={[image1, image2, image3, image4]} /> */}
         <Controls
           productAdd={this.addProductHandler}
           checkout={this.showModalHandler}
