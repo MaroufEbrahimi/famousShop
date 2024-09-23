@@ -1,0 +1,20 @@
+.cart_product_list {
+  padding: 40px 15px;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.cart_product_list .cart_product_info img {
+  width: 140px;
+}
+
+.cart_product_inc_dec {
+  font-size: 15px;
+}
+.cart_product_inc_dec .cart_pro_inc_box {
+  width: 60px;
+  height: 40px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  border-radius: 4px;
+  font-size: 15px;
+}

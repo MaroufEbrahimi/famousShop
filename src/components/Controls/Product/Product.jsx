@@ -14,9 +14,9 @@ const Product = ({ img, price, rate, text }) => {
       <div className="product_img_content position_relative">
         <img src={img} />
         <div className="product_img_content_side position_absolute display_flex flex_direction_column gap_15">
-          <FontAwesomeIcon icon={faHeartCirclePlus} className="product_icon" />
-          <FontAwesomeIcon icon={faShareNodes} className="product_icon" />
-          <FontAwesomeIcon icon={faCartShopping} className="product_icon" />
+          <FontAwesomeIcon icon={faHeartCirclePlus} className="product_icon fa_icon" />
+          <FontAwesomeIcon icon={faShareNodes} className="product_icon fa_icon" />
+          <FontAwesomeIcon icon={faCartShopping} className="product_icon fa_icon" />
         </div>
       </div>
       <div className="product_content">

@@ -1,0 +1,11 @@
+.cart {
+  position: relative;
+}
+.cart_list {
+  flex: 3;
+}
+.cart_summary {
+  flex: 1;
+  background-color: green;
+  height: max-content;
+}

@@ -24,6 +24,11 @@ button {
   user-select: none;
 }
 
+/* just for test */
+.dummy_margin {
+  margin: 8rem 7rem;
+}
+
 img {
   -webkit-user-drag: none;
   -khtml-user-drag: none;
@@ -33,6 +38,14 @@ img {
 }
 
 /* ###_____ General Styles _____### */
+.bold {
+  font-weight: bold;
+}
+
+.fa_icon {
+  cursor: pointer;
+}
+
 .border_radius_10 {
   border-radius: 10px;
 }
@@ -61,6 +74,10 @@ img {
   justify-content: center;
 }
 
+.justify_content_space_between {
+  justify-content: space-between;
+}
+
 .gap_5 {
   gap: 5px;
 }
@@ -79,6 +96,9 @@ img {
 .gap_30 {
   gap: 30px;
 }
+.gap_40 {
+  gap: 40px;
+}
 
 .cursor_pointer {
   cursor: pointer;
@@ -89,8 +109,4 @@ img {
 }
 .text_align_justify {
   text-align: justify;
-}
-
-.bold {
-  font-weight: bold;
 }
