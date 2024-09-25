@@ -46,6 +46,10 @@ img {
   cursor: pointer;
 }
 
+.red_color {
+  color: red;
+}
+
 .border_radius_10 {
   border-radius: 10px;
 }
